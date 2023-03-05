@@ -411,11 +411,11 @@ img {
 }
 .review-list {
   /* display: flex; */
-  gap: 30px;
+  /* gap: 30px; */
 }
 .review-item {
   /* width: 360px; */
-  padding: 24px;
+  /* padding: 24px; */
   background-color: #f3f3f3;
   border-radius: 8px;
 }
@@ -468,7 +468,7 @@ img {
   border: transparent;
 }
 
-.swiper {
+/* .swiper {
   width: 900px;
   height: 500px;
 }
@@ -486,7 +486,7 @@ img {
 .image-slider .swiper-button-prev::after {
   color: blueviolet;
   font-size: 90px;
-}
+} */
 
 /* Custom button  */
 
@@ -507,11 +507,11 @@ img {
   color: #be09d2;
 } */
 
-.image-slider .swiper-pagination-bullet {
+/* .image-slider .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
   background-color: #be09d2;
-}
+} */
 
 /* HERO BOTTOM */
 

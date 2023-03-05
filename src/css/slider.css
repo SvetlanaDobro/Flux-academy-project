@@ -1,0 +1,9 @@
+.swiper {
+  max-width: 100%;
+  height: auto;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
