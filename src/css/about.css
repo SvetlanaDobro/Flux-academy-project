@@ -1,0 +1,112 @@
+.about {
+  background-color: #000000;
+}
+.about-container {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
+}
+/* .about-content {
+  width: 453px;
+} */
+.about-title {
+  /* margin-bottom: 16px; */
+  font-weight: 900;
+  /* font-size: 24px;
+  line-height: 1.33; */
+  letter-spacing: -0.1px;
+  color: #ffffff;
+}
+.about-after-title {
+  /* margin-bottom: 16px; */
+  /* font-size: 16px;
+  line-height: 1.5; */
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.about-list {
+  padding-left: 20px;
+}
+.about-item {
+  /* font-size: 16px;
+  line-height: 1.5; */
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.about-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.shelf {
+  border-radius: 12px;
+}
+@media screen and (min-width: 375px) {
+  /* ABOUT */
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .about-title {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+  }
+  .about-after-title {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .about-list {
+    text-align: center;
+  }
+  .about-item {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+@media screen and (min-width: 744px) {
+  /* ABOUT */
+  .about-container {
+    gap: 29px;
+  }
+  .about-title {
+    margin-bottom: 29px;
+
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  .about-after-title {
+    margin-bottom: 29px;
+
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about-item {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-container {
+    flex-direction: row-reverse;
+    gap: 133px;
+  }
+  .about-title {
+    margin-bottom: 16px;
+    text-align: start;
+  }
+  .about-after-title {
+    margin-bottom: 16px;
+    text-align: start;
+  }
+  .about-list {
+    text-align: start;
+  }
+}

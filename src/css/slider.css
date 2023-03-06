@@ -7,3 +7,13 @@
   height: 20px;
   background-color: black;
 }
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 25px);
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
