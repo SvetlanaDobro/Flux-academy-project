@@ -7,10 +7,9 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
+
   /* padding-top: 96px;
   padding-bottom: 108px; */
 }
@@ -105,11 +104,13 @@ input {
 @media screen and (min-width: 744px) {
   .footer-container {
     align-items: start;
-    padding: 25.73px 22px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     gap: 20px;
   }
   .footer-content-input {
     display: flex;
+    width: 100%;
   }
   .footer-list {
     text-align: start;
@@ -120,18 +121,23 @@ input {
 }
 @media screen and (min-width: 1440px) {
   .footer-container {
-    gap: 48px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 67px;
     padding-top: 58px;
     padding-bottom: 71px;
   }
   .footer-content-input {
-    /* gap: 198px; */
+    gap: 35px;
     justify-content: space-between;
   }
   .footer-content {
-    gap: 88px;
+    gap: 35px;
   }
   .footer-input {
-    width: 345px;
+    width: 100%;
+  }
+  .footer-list {
+    width: 160px;
   }
 }

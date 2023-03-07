@@ -3,7 +3,7 @@
   --secondary-text-color: #ffffff;
 }
 .container {
-  max-width: 375px;
+  max-width: 327px;
   padding: 0 24px;
 
   border: 1px solid tomato;
@@ -11,15 +11,15 @@
 
 @media screen and (min-width: 744px) {
   .container {
-    max-width: 744px;
+    max-width: 696px;
     border: 1px solid yellow;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1170px;
-    padding-left: 14px;
-    padding-right: 14px;
+    max-width: 1140px;
+    padding-left: 150px;
+    padding-right: 150px;
     border: 1px solid teal;
   }
 }
