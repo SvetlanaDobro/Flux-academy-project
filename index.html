@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Flux-academy-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>BRAND</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     
-    <script type="module" crossorigin src="/Flux-academy-project/assets/index-e688e21a.js"></script>
-    <link rel="stylesheet" href="/Flux-academy-project/assets/index-f2a510d6.css">
+    <script type="module" crossorigin src="/Flux-academy-project/assets/index-cb317eb1.js"></script>
+    <link rel="stylesheet" href="/Flux-academy-project/assets/index-3387b240.css">
   </head>
   <body>
     <!-- <header class="header">
@@ -48,7 +48,7 @@
       </ul>
     </nav>
 
-    <button class="header-btn-ham" type="button">
+    <button class="header-btn-ham js-open-modal"  data-modal="1" type="button">
       <svg width="25" height="25">
         <use href="../img/symbol-defs.svg#icon-Group-12"></use>
       </svg>
@@ -56,7 +56,7 @@
     </button>
 
 
-    <button class="header-btn" type="button">Action</button>
+    <button class="header-btn js-open-modal" data-modal="2" type="button">Action</button>
   </div>
 </header>
 
@@ -214,6 +214,33 @@
         <button class="hero-bottom-btn" type="button">Action</button>
     </div>
 </section>
+      <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+<!-- <a href="#" class="js-open-modal" data-modal="1">Открыть окно 1</a> -->
+<!-- <a href="#" class="js-open-modal" data-modal="2">Открыть окно 2</a> -->
+
+<!-- Несколько модальных окон -->
+
+<div class="modal" data-modal="1">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+    </svg>
+    <p class="modal__title">Заголовок окна 1</p>
+</div>
+
+<div class="modal" data-modal="2">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+    </svg>
+    <p class="modal__title">Заголовок окна 2</p>
+</div>
+
+<!-- Подложка под модальным окном -->
+<div class="overlay js-overlay-modal"></div>
     </main>
     
 
@@ -265,6 +292,9 @@
         
     </footer>
 
+
+<script
+  src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
         
