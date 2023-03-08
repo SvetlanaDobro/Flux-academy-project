@@ -8,6 +8,7 @@
   justify-content: space-between;
 }
 .header-logo {
+  position: relative;
   font-weight: 900;
   font-size: 25px;
   line-height: 1.04;
@@ -22,6 +23,8 @@
 }
 
 .header-logo-sup {
+  position: absolute;
+  top: 2px;
   font-size: 8.21776px;
   line-height: 1.13;
   letter-spacing: -0.146746px;
@@ -78,5 +81,12 @@
 @media screen and (min-width: 744px) {
   .header-btn-ham {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-hd {
+    max-width: 1376px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
